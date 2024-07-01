@@ -49,7 +49,7 @@ Resources:
                 Provider: 'GitHub'
               Configuration:
                 Owner: 'matheusgonzalez91'
-                Repo: 'prontuario-cdk'
+                Repo: 'cdk-pipeline'
                 Branch: 'main'
                 OAuthToken: !Sub '{{resolve:secretsmanager:AWS_GITHUB_TOKEN}}'
               OutputArtifacts:
